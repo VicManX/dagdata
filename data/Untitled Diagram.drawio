@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-05T14:36:18.246Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="b3rZYFveGq-OJZeEJ6hx" version="15.6.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-11-05T14:41:51.991Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="AjPVKErBdHiP4vUKSX1T" version="15.6.8" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="976" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -134,30 +134,28 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Process_English" id="Z43BUQon1FSwOXQ2RdB8">
-    <mxGraphModel dx="4880" dy="2935" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="976" dy="587" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="iNw9Pw7DU7dgwjrCMBN8-0" />
         <mxCell id="iNw9Pw7DU7dgwjrCMBN8-1" parent="iNw9Pw7DU7dgwjrCMBN8-0" />
         <mxCell id="iNw9Pw7DU7dgwjrCMBN8-2" value="Automatized labelling" style="swimlane;" vertex="1" parent="iNw9Pw7DU7dgwjrCMBN8-1">
-          <mxGeometry x="246" y="22" width="307" height="554" as="geometry" />
+          <mxGeometry x="246" y="22" width="307" height="486" as="geometry" />
         </mxCell>
-        <mxCell id="iNw9Pw7DU7dgwjrCMBN8-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="iNw9Pw7DU7dgwjrCMBN8-2" source="iNw9Pw7DU7dgwjrCMBN8-4" target="iNw9Pw7DU7dgwjrCMBN8-7">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="iNw9Pw7DU7dgwjrCMBN8-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="iNw9Pw7DU7dgwjrCMBN8-2" source="iNw9Pw7DU7dgwjrCMBN8-4" target="iNw9Pw7DU7dgwjrCMBN8-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="231" y="75" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="iNw9Pw7DU7dgwjrCMBN8-4" value="Automatized labelling Script" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="iNw9Pw7DU7dgwjrCMBN8-2">
-          <mxGeometry x="52" y="145" width="150" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="iNw9Pw7DU7dgwjrCMBN8-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="iNw9Pw7DU7dgwjrCMBN8-2" source="iNw9Pw7DU7dgwjrCMBN8-6" target="iNw9Pw7DU7dgwjrCMBN8-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="iNw9Pw7DU7dgwjrCMBN8-6" value="Face detection and Facial keypoints detection Models" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="iNw9Pw7DU7dgwjrCMBN8-2">
-          <mxGeometry x="177" y="46" width="117" height="77" as="geometry" />
+          <mxGeometry x="59" y="50" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="iNw9Pw7DU7dgwjrCMBN8-7" value="Label files in *.json" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="iNw9Pw7DU7dgwjrCMBN8-2">
-          <mxGeometry x="75" y="251" width="108" height="43" as="geometry" />
+          <mxGeometry x="177" y="177" width="108" height="43" as="geometry" />
         </mxCell>
         <mxCell id="iNw9Pw7DU7dgwjrCMBN8-8" value="Frames generate" style="swimlane;" vertex="1" parent="iNw9Pw7DU7dgwjrCMBN8-2">
-          <mxGeometry x="-228" width="228" height="554" as="geometry" />
+          <mxGeometry x="-228" width="228" height="486" as="geometry" />
         </mxCell>
         <mxCell id="iNw9Pw7DU7dgwjrCMBN8-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="iNw9Pw7DU7dgwjrCMBN8-8" source="iNw9Pw7DU7dgwjrCMBN8-10" target="iNw9Pw7DU7dgwjrCMBN8-12">
           <mxGeometry relative="1" as="geometry" />
@@ -199,32 +197,39 @@
         <mxCell id="iNw9Pw7DU7dgwjrCMBN8-28" value="Delete" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="iNw9Pw7DU7dgwjrCMBN8-8">
           <mxGeometry x="16.5" y="344" width="60" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="iNw9Pw7DU7dgwjrCMBN8-15" value="Imágenes en *.jpg&lt;br&gt;(frames)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="iNw9Pw7DU7dgwjrCMBN8-8">
+        <mxCell id="iNw9Pw7DU7dgwjrCMBN8-15" value="Frames DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="iNw9Pw7DU7dgwjrCMBN8-8">
           <mxGeometry x="104" y="378" width="70" height="90" as="geometry" />
         </mxCell>
         <mxCell id="ZCXx9BNPgvVXBRDqdzeE-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="iNw9Pw7DU7dgwjrCMBN8-2" source="iNw9Pw7DU7dgwjrCMBN8-15" target="iNw9Pw7DU7dgwjrCMBN8-4">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="17" y="423" />
-              <mxPoint x="17" y="170" />
+              <mxPoint x="17" y="75" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="iNw9Pw7DU7dgwjrCMBN8-18" value="Label correction" style="swimlane;" vertex="1" parent="iNw9Pw7DU7dgwjrCMBN8-1">
-          <mxGeometry x="553" y="22" width="235" height="554" as="geometry" />
+          <mxGeometry x="553" y="22" width="235" height="486" as="geometry" />
         </mxCell>
-        <mxCell id="iNw9Pw7DU7dgwjrCMBN8-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="iNw9Pw7DU7dgwjrCMBN8-18" source="iNw9Pw7DU7dgwjrCMBN8-20" target="iNw9Pw7DU7dgwjrCMBN8-21">
+        <mxCell id="iNw9Pw7DU7dgwjrCMBN8-21" value="Labels DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="iNw9Pw7DU7dgwjrCMBN8-18">
+          <mxGeometry x="64" y="211" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ZCXx9BNPgvVXBRDqdzeE-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="iNw9Pw7DU7dgwjrCMBN8-18" source="ZCXx9BNPgvVXBRDqdzeE-4" target="iNw9Pw7DU7dgwjrCMBN8-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZCXx9BNPgvVXBRDqdzeE-4" value="Manual label correction" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="iNw9Pw7DU7dgwjrCMBN8-18">
+          <mxGeometry x="44" y="57" width="120" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="iNw9Pw7DU7dgwjrCMBN8-6" value="Face detection and Facial keypoints detection Models" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="iNw9Pw7DU7dgwjrCMBN8-1">
+          <mxGeometry x="69" y="521" width="165" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="iNw9Pw7DU7dgwjrCMBN8-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="iNw9Pw7DU7dgwjrCMBN8-1" source="iNw9Pw7DU7dgwjrCMBN8-6" target="iNw9Pw7DU7dgwjrCMBN8-4">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="180" y="182" />
-            </Array>
+            <mxPoint x="302" y="546" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iNw9Pw7DU7dgwjrCMBN8-20" value="Corrección de etiquetas" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="iNw9Pw7DU7dgwjrCMBN8-18">
-          <mxGeometry x="40" y="152" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="iNw9Pw7DU7dgwjrCMBN8-21" value="Etiquetas en formato *.JSON o *.XML" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="iNw9Pw7DU7dgwjrCMBN8-18">
-          <mxGeometry x="146" y="298" width="80" height="100" as="geometry" />
+        <mxCell id="ZCXx9BNPgvVXBRDqdzeE-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="iNw9Pw7DU7dgwjrCMBN8-1" source="iNw9Pw7DU7dgwjrCMBN8-7" target="ZCXx9BNPgvVXBRDqdzeE-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
